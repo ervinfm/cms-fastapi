@@ -57,16 +57,7 @@ def validate_password(password: str):
     if len(password) < 8:
         raise HTTPException(status_code=400, detail="Password harus minimal 8 karakter.")
     
-    if not re.search(r"[A-Z]", password):
-        raise HTTPException(status_code=400, detail="Password harus mengandung setidaknya satu huruf besar.")
-
     if not re.search(r"[a-z]", password):
         raise HTTPException(status_code=400, detail="Password harus mengandung setidaknya satu huruf kecil.")
 
-    if not re.search(r"\d", password):
-        raise HTTPException(status_code=400, detail="Password harus mengandung setidaknya satu angka.")
-
-    if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
-        raise HTTPException(status_code=400, detail="Password harus mengandung setidaknya satu karakter spesial.")
-    
     return password

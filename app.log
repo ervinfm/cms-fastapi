@@ -1,19 +1,104 @@
-2025-02-13 06:18:11,622 - WARNING - (trapped) error reading bcrypt version
+2025-02-14 00:38:51,633 - INFO - GET http://127.0.0.1:8000/ - Status: 404
+2025-02-14 00:38:53,780 - INFO - GET http://127.0.0.1:8000/docs - Status: 200
+2025-02-14 00:38:54,158 - INFO - GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-02-14 00:43:27,688 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:44:58,335 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:46:21,969 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:46:37,030 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:46:44,219 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:46:55,850 - WARNING - ratelimit 3 per 1 minute (127.0.0.1) exceeded at endpoint: /register
+2025-02-14 00:46:55,851 - INFO - POST http://127.0.0.1:8000/register - Status: 429
+2025-02-14 00:49:34,819 - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2025-02-13 06:18:11,993 - INFO - User ervin_fikot_m logged in successfully
-2025-02-13 06:23:12,599 - WARNING - (trapped) error reading bcrypt version
+2025-02-14 00:50:27,447 - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2025-02-13 06:23:12,931 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
-2025-02-13 06:23:12,932 - INFO - POST http://127.0.0.1:8000/token - Status: 401
-2025-02-13 06:23:14,862 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
-2025-02-13 06:23:14,864 - INFO - POST http://127.0.0.1:8000/token - Status: 401
-2025-02-13 06:23:16,639 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
-2025-02-13 06:23:16,640 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-14 00:53:35,340 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:54:17,118 - INFO - POST http://127.0.0.1:8000/register - Status: 400
+2025-02-14 00:54:57,035 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-14 00:57:23,493 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-14 00:58:51,231 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-14 00:59:52,786 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-14 00:59:53,361 - INFO - POST http://127.0.0.1:8000/register - Status: 200
+2025-02-14 01:01:01,429 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:01:01,433 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:01:33,838 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:01:33,841 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:01:35,366 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:01:35,368 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:01:36,829 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:01:36,832 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:01:38,337 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:01:38,339 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:01:39,475 - WARNING - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: /token
+2025-02-14 01:01:39,478 - INFO - POST http://127.0.0.1:8000/token - Status: 429
+2025-02-14 01:02:24,572 - INFO - User ervinfm14 logged in successfully
+2025-02-14 01:02:24,575 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:02:47,829 - INFO - GET http://127.0.0.1:8000/users/1 - Status: 200
+2025-02-14 01:04:37,875 - INFO - GET http://127.0.0.1:8000/users/3 - Status: 200
+2025-02-14 01:05:04,988 - INFO - PUT http://127.0.0.1:8000/users/3 - Status: 200
+2025-02-14 01:06:19,995 - INFO - DELETE http://127.0.0.1:8000/users/3 - Status: 401
+2025-02-14 01:06:32,222 - INFO - GET http://127.0.0.1:8000/users - Status: 307
+2025-02-14 01:06:32,234 - INFO - GET http://127.0.0.1:8000/users/ - Status: 401
+2025-02-14 01:06:37,189 - INFO - GET http://127.0.0.1:8000/users - Status: 307
+2025-02-14 01:06:37,198 - INFO - GET http://127.0.0.1:8000/users/ - Status: 401
+2025-02-14 01:08:10,595 - INFO - DELETE http://127.0.0.1:8000/users/3 - Status: 401
+2025-02-14 01:08:22,583 - INFO - PUT http://127.0.0.1:8000/users/3 - Status: 401
+2025-02-14 01:08:27,445 - INFO - GET http://127.0.0.1:8000/users/3 - Status: 401
+2025-02-14 01:08:33,697 - WARNING - Failed login attempt for email: ervinfm14@gmail.com
+2025-02-14 01:08:33,699 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-14 01:09:13,520 - INFO - User ervin_fikot_m logged in successfully
+2025-02-14 01:09:13,523 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:09:24,838 - INFO - GET http://127.0.0.1:8000/users/3 - Status: 200
+2025-02-14 01:09:34,956 - WARNING - Failed login attempt for email: ervinfm14@gmail.com
+2025-02-14 01:09:34,958 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-14 01:10:54,005 - WARNING - Failed login attempt for email: ervinfm14@gmail.com
+2025-02-14 01:10:54,007 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-14 01:11:14,711 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-14 01:11:15,112 - INFO - User ervin_baru logged in successfully
+2025-02-14 01:11:15,115 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:11:32,339 - INFO - GET http://127.0.0.1:8000/users/3 - Status: 200
+2025-02-14 01:11:43,547 - INFO - User ervin_baru (ID: 3) deleted successfully
+2025-02-14 01:11:43,564 - INFO - DELETE http://127.0.0.1:8000/users/3 - Status: 200
+2025-02-14 01:12:53,705 - INFO - User ervin_fikot_m logged in successfully
+2025-02-14 01:12:53,707 - INFO - POST http://127.0.0.1:8000/token - Status: 200
+2025-02-14 01:14:25,637 - INFO - POST http://127.0.0.1:8000/content - Status: 307
+2025-02-14 01:14:25,664 - INFO - POST http://127.0.0.1:8000/content/ - Status: 200
+2025-02-14 01:15:47,915 - INFO - GET http://127.0.0.1:8000/content - Status: 307
+2025-02-14 01:15:47,930 - INFO - GET http://127.0.0.1:8000/content/ - Status: 200
+2025-02-14 01:18:20,932 - INFO - PUT http://127.0.0.1:8000/content/1 - Status: 200
+2025-02-14 01:19:23,144 - INFO - DELETE http://127.0.0.1:8000/content/1 - Status: 200
+2025-02-14 01:20:26,971 - INFO - GET http://127.0.0.1:8000/users - Status: 307
+2025-02-14 01:20:26,987 - INFO - GET http://127.0.0.1:8000/users/ - Status: 200

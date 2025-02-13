@@ -51,7 +51,7 @@ def register(request: Request, user_data: schemas.UserCreate, db: Session = Depe
     new_user = models.User(
         username=user_data.username,
         email=user_data.email,
-        hashed_password=hashed_password,
+        password=hashed_password,
         role=user_data.role  # Default user biasa
     )
 
