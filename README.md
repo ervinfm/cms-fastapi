@@ -41,6 +41,7 @@ ALGORITHM=HS256
 ```
 
 Ganti `username` dan `password` dengan kredensial PostgreSQL Anda.
+(dalam project ini username dan password yaitu postgres)
 
 ### 4️⃣ Jalankan Database Migration
 ```bash
@@ -123,6 +124,8 @@ pytest tests/
 ✅ **Logging & Error Handling**  
 ✅ **Docker untuk Deployment Cepat**  
 ✅ **Dokumentasi Lengkap**  
+
+Note : Terdapat folder output yang berisikan contoh pengujian endpoint (Postman)
 
 🔥 **Proyek siap!** 🔥
 
