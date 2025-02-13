@@ -1,0 +1,19 @@
+2025-02-13 06:18:11,622 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-13 06:18:11,993 - INFO - User ervin_fikot_m logged in successfully
+2025-02-13 06:23:12,599 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "F:\test\contents\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-13 06:23:12,931 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
+2025-02-13 06:23:12,932 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-13 06:23:14,862 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
+2025-02-13 06:23:14,864 - INFO - POST http://127.0.0.1:8000/token - Status: 401
+2025-02-13 06:23:16,639 - WARNING - Failed login attempt for email: ervin.fikotm@gmail.com
+2025-02-13 06:23:16,640 - INFO - POST http://127.0.0.1:8000/token - Status: 401
